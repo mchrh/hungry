@@ -7,7 +7,7 @@ class HomePageView(TemplateView):
 
 class SearchResultsView(ListView):
     model=results
-    template_name='search_results.html'
+    template_name='results.html'
 
     def get_queryset(self):
         query = self.request.GET.get('q')
