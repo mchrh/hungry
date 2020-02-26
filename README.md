@@ -17,4 +17,6 @@ Click on add
 
 ![alt text](http://mchrh.me/img/2.png "2")
 
+
 The id attribute is not important, name is the name of the recipe you wanna add, and ING1 through ING5 are the ingredients the recipe contains (you could add more ING fields by tweaking the webapp/models.py file).
+
