@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'webapp',
     'crispy_forms',
+    'bootstrap3',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
@@ -127,9 +128,7 @@ django_heroku.settings(locals())
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATIC_URL = '/static/'
+STATIC_URL = '/templates/'
 STATICFILES_DIRS = (
-    os.path.join(os.path.abspath(os.path.dirname(__file__)), "static",),
+    os.path.join(os.path.abspath(os.path.dirname(__file__)), "templates",),
 )
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
