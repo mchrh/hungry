@@ -8,6 +8,7 @@ class results(models.Model):
     ING3 = models.CharField(max_length=100)
     ING4 = models.CharField(max_length=100)
     ING5 = models.CharField(max_length=100)
+    CATEGORY=models.CharField(max_length=100)
 
     class Meta:
         verbose_name_plural="recipes"
