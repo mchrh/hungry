@@ -4,7 +4,7 @@
 
 
 Django webapp that searches through a personal database of recipes (created with the admin/ part of django).
-Clone the repo, fetch a database of recipes on the internet (or make your own), run the server and you should be good to go.
+Clone the repo, fetch a database of recipes on the internet (or make your own) - it has my db by default, run the server and you should be good to go.
 
 You can try it yourself [here.](https://lit-basin-64608.herokuapp.com/)
 
