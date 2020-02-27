@@ -130,3 +130,5 @@ STATIC_URL = '/templates/'
 STATICFILES_DIRS = (
     os.path.join(os.path.abspath(os.path.dirname(__file__)), "templates",),
 )
+
+django_heroku.settings(locals())
